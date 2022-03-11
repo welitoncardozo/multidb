@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    main:
+      jdbc-url: jdbc:postgresql://localhost:5432/main
+      username: postgres
+      password: password
+    first:
+      jdbc-url: jdbc:postgresql://localhost:5432/first
+      username: postgres
+      password: password
+    second:
+      jdbc-url: jdbc:postgresql://localhost:5432/second
+      username: postgres
+      password: password
+    third:
+      jdbc-url: jdbc:postgresql://localhost:5432/third
+      username: postgres
+      password: password
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
