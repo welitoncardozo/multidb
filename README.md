@@ -1,2 +1,3 @@
 - Example of how to use multi-databases in the same project
-- There are some databases with different structure too
+- There are some databases with different structure too, each repository is used by some database
+- Used Aspect Oriented Programming (AOP) to change databases, this rules is done by repositories

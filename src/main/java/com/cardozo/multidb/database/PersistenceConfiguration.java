@@ -1,4 +1,4 @@
-package com.cardozo.multidb.databaseconnection;
+package com.cardozo.multidb.database;
 
 import com.cardozo.multidb.enums.DatabaseId;
 import lombok.AllArgsConstructor;
