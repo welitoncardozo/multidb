@@ -16,9 +16,9 @@ spring:
       username: postgres
       password: password
     third:
-      jdbc-url: jdbc:postgresql://localhost:5432/third
-      username: postgres
-      password: password
+      jdbc-url: jdbc:sqlserver://localhost:1433;databaseName=third;integratedSecurity=false;encrypt=false;
+      username: sa
+      password: sa
   jpa:
     show-sql: false
     hibernate:
